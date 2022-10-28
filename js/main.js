@@ -4,9 +4,16 @@ let prezzomaggiore60
 let prova
 let prova1
 let prezzoperdistanza
+const button2 = document.getElementById("bottoneannulla");
 
+button2.addEventListener("click",
+    function(){
+        document.getElementById('fname').value = '';
+        document.getElementById('fkm').value = '';
+        document.getElementById('etarange').value = '';
+    }
 
-
+)
 
 button1.addEventListener("click", 
 

@@ -12,6 +12,7 @@
     background-color: blue;
     color: aliceblue;
     border: 2px black solid;
+    border-radius: 2rem;
 }
 
 .sezioneblu{
@@ -19,12 +20,14 @@
     display: inline-block;
     color: green;
     width: 80%;
+    color: black;
 }
 .tabellina{
     position: relative;
     border: 1px solid black;
     border-right: 0;
     margin: 15px;
+    color: black;
 }
 
 .sfondogrigio{
@@ -57,5 +60,5 @@
     padding: 20px;
 }
 td{
-    padding:20px 40px;
+    padding:15px 40px;
 }
