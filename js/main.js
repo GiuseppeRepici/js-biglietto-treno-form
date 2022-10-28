@@ -33,7 +33,7 @@ button1.addEventListener("click",
         prova1 = document.getElementById("tipobiglietto").innerHTML = "Biglietto per minorenni";
         
 
-        } else  if (rangeAge == 40) {
+        } else { if (rangeAge == 40) {
                 prezzomaggiore60 = parseFloat(prezzoperdistanza - (prezzoperdistanza * 40 / 100));
                 
                 const prova = document.getElementById("costofinale");
@@ -42,10 +42,11 @@ button1.addEventListener("click",
 
                 prova1 = document.getElementById("tipobiglietto").innerHTML = "Biglietto per over 65";
                 
-        } else 
+        } else {
              prova = document.getElementById("costofinale").innerHTML = prezzoperdistanza.toFixed(2);
              prova1 = document.getElementById("tipobiglietto").innerHTML = "Biglietto intero";
-            
+           
+        }   } 
     }
 
 )

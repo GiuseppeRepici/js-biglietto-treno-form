@@ -3,6 +3,7 @@
     color: gold;
     display: inline-block;
     margin: 0 auto;
+    width: 80%;
 }
 
 .btn11{
@@ -17,9 +18,31 @@
     background-color:blanchedalmond;
     display: inline-block;
     color: green;
+    width: 80%;
 }
 .tabellina{
     position: relative;
+    border: 1px solid black;
+    border-right: 0;
+    margin: 15px;
+}
+
+.sfondogrigio{
+    background-color: gray;
+    color: black;
+    padding: 0;
+    font-size: 20px;
+    width: 300px;
+    position: relative;
+}
+
+#nomepasseggero{
+    position: absolute;
+    top: 75px;
+    left: 85px;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
 }
 
 .dettagli{
@@ -34,5 +57,5 @@
     padding: 20px;
 }
 td{
-    padding: 20px;
+    padding:20px 40px;
 }
