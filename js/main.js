@@ -24,11 +24,11 @@ button1.addEventListener("click",
 
         
 
-        if (rangeAge.value=20) {
+        if (rangeAge == 20) {
         prezzominorenne = parseFloat(prezzoperdistanza - (prezzoperdistanza * 20 / 100));
         const prova = document.getElementById("costofinale");
         prova.innerHTML = prezzominorenne.toFixed(2) ;
-        } else if (rangeAge.value=40) {
+        } else if (rangeAge == 40) {
                 prezzomaggiore60 = parseFloat(prezzoperdistanza - (prezzoperdistanza * 40 / 100));
         
                 const prova = document.getElementById("costofinale");
@@ -36,9 +36,9 @@ button1.addEventListener("click",
                 prova.innerHTML = prezzomaggiore60.toFixed(2) ;
                 
         } else 
-             prova = document.getElementById("costofinale");
+             prova = document.getElementById("costofinale").innerHTML = prezzoperdistanza.toFixed(2);
 
-             prova.innerHTML = prezzoperdistanza.toFixed(2) ;
+             
     }
 
 )
