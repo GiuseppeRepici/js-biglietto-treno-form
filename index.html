@@ -25,18 +25,32 @@
                 <h3>FASCIA DI ETA:</h3>
                 <select name="name" id="etarange">
                     <option value="20">MINORENNE</option>
-                    <option value="">MAGGIORENNE</option>
+                    <option value="0">MAGGIORENNE</option>
                     <option value="40">OVER 65</option>
                 </select>
             </div>
             <div class="col-4">  
-                <button type="submit" name="namebot" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
+                <button type="button" name="namebot" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
             </div>
             <div class="col-4">
                 <button type="reset" class="btn col-2 btn-primary" id="bottoneannulla">annulla</button>
             </div>
         </div>
         </form>
+    </section>
+
+    <section class="comparsa">
+        <h1>il tuo biglietto</h1>
+        <div class="sezioneblu">
+            <span>dettaglio passeggeri</span>
+            <div class="dettagli">
+                <p>nome passeggero: <span id="nomepasseggero"></span></p>
+                <p>tipo di biglietto <span id="tipobiglietto"></span></p>
+                <p>corrozza <span>5</span></p>
+                <p>codice cp <span>e44563cf5</span></p>
+                <p>costo del biglietto <span id="costofinale"></span></p>
+            </div>
+        </div>
     </section>
 
 
