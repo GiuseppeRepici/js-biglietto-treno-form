@@ -11,26 +11,26 @@
 <body>
     <section class="riquadro py-5">
         <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-        <form action="">
+        <form name="form11">
         <div class=" text-center justify-content-center row">
             <div class="col-4">
                 <h3>Nome completo:</h3>
-                <input type="text" id="fname" name="namecomplete"><br><br>
+                <input class="prova" type="text" id="fname" name="namecomplete"><br><br>
             </div>
             <div class="col-4">
                 <h3>DISTANZA IN KM:</h3>
-                <input type="text" id="fname" name="namecomplete"><br><br>
+                <input type="text" id="fkm" name="distancekm"><br><br>
             </div>
             <div class="col-4">
                 <h3>FASCIA DI ETA:</h3>
-                <select name="eta" id="etarange">
+                <select name="name" id="etarange">
                     <option value="20">MINORENNE</option>
                     <option value="">MAGGIORENNE</option>
                     <option value="40">OVER 65</option>
                 </select>
             </div>
             <div class="col-4">  
-                <button type="submit" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
+                <button type="submit" name="namebot" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
             </div>
             <div class="col-4">
                 <button type="reset" class="btn col-2 btn-primary" id="bottoneannulla">annulla</button>
