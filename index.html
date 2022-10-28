@@ -6,8 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <section class="riquadro py-5">
+        <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <form action="">
+        <div class=" text-center justify-content-center row">
+            <div class="col-4">
+                <h3>Nome completo:</h3>
+                <input type="text" id="fname" name="namecomplete"><br><br>
+            </div>
+            <div class="col-4">
+                <h3>DISTANZA IN KM:</h3>
+                <input type="text" id="fname" name="namecomplete"><br><br>
+            </div>
+            <div class="col-4">
+                <h3>FASCIA DI ETA:</h3>
+                <select name="eta" id="etarange">
+                    <option value="20">MINORENNE</option>
+                    <option value="">MAGGIORENNE</option>
+                    <option value="40">OVER 65</option>
+                </select>
+            </div>
+            <div class="col-4">  
+                <button type="submit" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
+            </div>
+            <div class="col-4">
+                <button type="reset" class="btn col-2 btn-primary" id="bottoneannulla">annulla</button>
+            </div>
+        </div>
+        </form>
+    </section>
+
+
+
     <script src="js/main.js"></script>
 </body>
 </html>
