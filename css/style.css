@@ -1,4 +1,38 @@
 .riquadro{
     background-color: black;
     color: gold;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.btn11{
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    border: 2px black solid;
+}
+
+.sezioneblu{
+    background-color:blanchedalmond;
+    display: inline-block;
+    color: green;
+}
+.tabellina{
+    position: relative;
+}
+
+.dettagli{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px
+}
+.abs {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    padding: 20px;
+}
+td{
+    padding: 20px;
 }

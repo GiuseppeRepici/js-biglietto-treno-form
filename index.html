@@ -9,46 +9,65 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="riquadro py-5">
-        <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-        <form name="form11">
-        <div class=" text-center justify-content-center row">
-            <div class="col-4">
-                <h3>Nome completo:</h3>
-                <input class="prova" type="text" id="fname" name="namecomplete"><br><br>
+    <section class="text-center">
+        <div class="riquadro py-5">
+            <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <form name="form11">
+            <div class=" text-center justify-content-center row">
+                <div class="col-4">
+                    <h3>Nome completo:</h3>
+                    <input class="prova" type="text" id="fname" name="namecomplete"><br><br>
+                </div>
+                <div class="col-4">
+                    <h3>DISTANZA IN KM:</h3>
+                    <input type="text" id="fkm" name="distancekm"><br><br>
+                </div>
+                <div class="col-4">
+                    <h3>FASCIA DI ETA:</h3>
+                    <select name="name" id="etarange">
+                        <option value="20">MINORENNE</option>
+                        <option value="0">MAGGIORENNE</option>
+                        <option value="40">OVER 65</option>
+                    </select>
+                </div>
+                <div class="col-4">  
+                    <button type="button" name="namebot" class="btn11" id="bottonecarica">carica</button>
+                </div>
+                <div class="col-4">
+                    <button type="reset" class="btn btn11 col-2 btn-primary" id="bottoneannulla">annulla</button>
+                </div>
             </div>
-            <div class="col-4">
-                <h3>DISTANZA IN KM:</h3>
-                <input type="text" id="fkm" name="distancekm"><br><br>
-            </div>
-            <div class="col-4">
-                <h3>FASCIA DI ETA:</h3>
-                <select name="name" id="etarange">
-                    <option value="20">MINORENNE</option>
-                    <option value="0">MAGGIORENNE</option>
-                    <option value="40">OVER 65</option>
-                </select>
-            </div>
-            <div class="col-4">  
-                <button type="button" name="namebot" class="btn col-2 btn-primary" id="bottonecarica">carica</button>
-            </div>
-            <div class="col-4">
-                <button type="reset" class="btn col-2 btn-primary" id="bottoneannulla">annulla</button>
-            </div>
+            </form>
         </div>
-        </form>
     </section>
 
-    <section class="comparsa">
+    <section class="comparsa text-center">
         <h1>il tuo biglietto</h1>
         <div class="sezioneblu">
-            <span>dettaglio passeggeri</span>
             <div class="dettagli">
-                <p>nome passeggero: <span id="nomepasseggero"></span></p>
-                <p>tipo di biglietto <span id="tipobiglietto"></span></p>
-                <p>corrozza <span>5</span></p>
-                <p>codice cp <span>e44563cf5</span></p>
-                <p>costo del biglietto <span id="costofinale"></span></p>
+                <table class="tabellina">
+                    <tr class="rel">
+                        <td>Nome Passeggero</td>
+                        <td>Offerta</td>
+                        <td>Carrozza</td>
+                        <td>Codice CP</td>
+                        <td>Costo Biglietto</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="nomepasseggero"></span>
+                        </td>
+                        <td>
+                            <span id="tipobiglietto"></span>
+                        </td>
+                        <td>5</td>
+                        <td>werb45</td>
+                        <td>
+                            <span id="costofinale"></span>
+                        </td>
+                    </tr> 
+                </table>
+                <span class="abs">Dettaglio passeggeri</span>
             </div>
         </div>
     </section>
