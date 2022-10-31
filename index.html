@@ -10,44 +10,48 @@
 </head>
 <body>
     <section class="text-center">
-        <div class="riquadro py-5">
-            <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <h1 class="text-center titolo">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div class="riquadro py-4">    
             <form name="form11">
-            <div class=" text-center justify-content-center row">
-                <div class="col-4">
-                    <h3>Nome completo:</h3>
-                    <input class="prova" type="text" id="fname" name="namecomplete"><br><br>
+            <div class=" text-center justify-content-center d-flex gap-5">
+                <div class="">
+                    <h3>Nome Cognome</h3>
+                    <input class="form1"  type="text" id="fname" name="namecomplete"><br><br>
                 </div>
-                <div class="col-4">
-                    <h3>DISTANZA IN KM:</h3>
-                    <input type="text" id="fkm" name="distancekm"><br><br>
+                <div class="">
+                    <h3>Km da percorrere:</h3>
+                    <input class="form1" type="text" id="fkm" name="distancekm"><br><br>
                 </div>
-                <div class="col-4">
-                    <h3>FASCIA DI ETA:</h3>
-                    <select name="name" id="etarange">
+                <div class="">
+                    <h3>Fascia d'età</h3>
+                    <select class="form1" name="name" id="etarange">
                         <option value="20">MINORENNE</option>
                         <option value="0">MAGGIORENNE</option>
                         <option value="40">OVER 65</option>
                     </select>
                 </div>
-                <div class="col-4">  
-                    <button type="button" name="namebot" class="btn11" id="bottonecarica">carica</button>
-                </div>
-                <div class="col-4">
-                    <button type="button" class="btn11" id="bottoneannulla">annulla</button>
-                </div>
             </div>
+                    <div class="d-flex justify-content-center gap-3">
+                        <div class="">  
+                            <button  type="button" name="namebot" class="btn11 mt-3" id="bottonecarica"> <strong>Genera</strong></button>
+                        </div>
+                        <div class="">
+                            <button type="button" class="btn11 cb1 mt-3" id="bottoneannulla"><strong>Annulla</strong></button>
+                        </div>
+                    </div>
+                
+            
             </form>
         </div>
     </section>
 
     <section class="comparsa text-center">
-        <h1>il tuo biglietto</h1>
+        <h1 class="titolo mt-5">IL TUO BIGLIETTO</h1>
         <div class="sezioneblu">
             <div class="dettagli">
                 <table class="tabellina">
                     <tr class="rel">
-                        <td class="sfondogrigio"><strong> Nome Passeggero </strong></td>
+                        <td class="sfondogrigio"><strong>NOME PASSEGGERO</strong></td>
                         <strong><span id="nomepasseggero"></span></strong>
                         <td>Offerta</td>
                         <td>Carrozza</td>

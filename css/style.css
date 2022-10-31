@@ -1,24 +1,42 @@
+body {
+    background-color: rgba(185,20,80,255);
+}
+.titolo {
+    color: white;
+}
+
+h3{
+    font-size: 16px;
+    padding: 10px;
+}
 .riquadro{
-    background-color: black;
-    color: gold;
+    background-color: white;
+    color: rgba(185,20,80,255);
     display: inline-block;
     margin: 0 auto;
     width: 80%;
 }
 
-.btn11{
-    width: 80px;
-    height: 50px;
-    background-color: blue;
-    color: aliceblue;
-    border: 2px black solid;
-    border-radius: 2rem;
+.form1{
+    border: 1px rgba(185,20,80,255) solid;
+    border-radius: 0.3rem;
 }
 
+.btn11{
+    background-color: rgb(213, 213, 213);
+    color: rgba(185,20,80,255);
+    border: 2px orange solid;
+    border-radius: .4rem;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.cb1{
+    border: 1.5px rgba(139,139,139,255) solid;
+}
 .sezioneblu{
-    background-color:blanchedalmond;
+    background-color:white;
     display: inline-block;
-    color: green;
     width: 80%;
     color: black;
 }
@@ -33,16 +51,16 @@
 .sfondogrigio{
     background-color: gray;
     color: black;
-    padding: 0;
-    font-size: 20px;
-    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    width: fit-content;
     position: relative;
 }
 
 #nomepasseggero{
     position: absolute;
-    top: 75px;
-    left: 85px;
+    top: 52px;
+    left: 27px;
     z-index: 2;
     color: black;
     font-size: 20px;
