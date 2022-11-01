@@ -2,7 +2,7 @@ body {
     background-color: rgba(185,20,80,255);
 }
 .titolo {
-    color: white;
+    color: black;
 }
 
 h3{
@@ -15,11 +15,18 @@ h3{
     display: inline-block;
     margin: 0 auto;
     width: 80%;
+    border-radius: .3rem;
+    box-shadow: 0px 0px 20px greenyellow;
 }
 
 .form1{
     border: 1px rgba(185,20,80,255) solid;
     border-radius: 0.3rem;
+}
+
+.form1:hover{
+    background-color: black;
+    color: gold;
 }
 
 .btn11{
@@ -39,6 +46,8 @@ h3{
     display: inline-block;
     width: 80%;
     color: black;
+    border-radius: .3rem;
+    box-shadow: 0px 0px 20px greenyellow;
 }
 .tabellina{
     position: relative;
@@ -46,20 +55,21 @@ h3{
     border-right: 0;
     margin: 15px;
     color: black;
+    margin-top: -10px;
 }
 
 .sfondogrigio{
     background-color: gray;
     color: black;
     padding: 10px;
-    font-size: 16px;
-    width: fit-content;
+    font-size: 18px;
+    width: 202px;
     position: relative;
 }
 
 #nomepasseggero{
     position: absolute;
-    top: 52px;
+    top: 35px;
     left: 27px;
     z-index: 2;
     color: black;
@@ -74,8 +84,9 @@ h3{
 .abs {
     position: absolute;
     top: -50px;
-    left: 0;
-    padding: 20px;
+    left: -4px;
+    padding: 18px;
+    font-size: 17px;
 }
 td{
     padding:15px 40px;
